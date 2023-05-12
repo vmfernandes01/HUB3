@@ -7,9 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HUB3 - You, connected!</title>
   <link rel="icon" href="img/icon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   <link href="css/style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -69,7 +71,7 @@
         </div>
         <div class="col-lg-4 text-center">
           <div class="embed-responsive embed-responsive-1by1">
-            <video autoplay muted loop class="embed-responsive-item" height="500px" width="100%" src="img/gif.mp4"></video>
+            <video playsinline disablepictureinpicture autoplay muted loop class="embed-responsive-item" height="500px" width="100%" src="img/gif.mp4"></video>
           </div>
         </div>
       </div>
@@ -145,19 +147,19 @@
           </div>
           <div class="slide">
             <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.31 40">
-              <path class="cls-1" d="m23.2,16.69c-.32.1-.74.16-1.26.16-.68,0-1.36-.11-2.03-.34-.67-.23-1.25-.52-1.74-.87l-.9,2.03c.51.4,1.18.72,2.02.97.84.25,1.71.37,2.62.37,1.09,0,1.99-.17,2.7-.5.71-.33,1.25-.77,1.61-1.32.36-.54.54-1.14.54-1.8,0-.61-.12-1.12-.37-1.51-.24-.4-.56-.72-.95-.97-.39-.24-.82-.44-1.3-.58-.47-.14-.95-.27-1.42-.38-.47-.11-.9-.22-1.3-.33-.39-.11-.71-.26-.95-.44-.24-.18-.36-.42-.36-.72,0-.26.07-.48.21-.67.14-.19.38-.35.7-.47.33-.12.74-.18,1.26-.18s1.03.07,1.56.22c.53.15,1.06.38,1.6.69l.82-2.05c-.53-.34-1.15-.6-1.84-.77-.7-.17-1.4-.26-2.12-.26-1.08,0-1.97.16-2.68.49s-1.24.77-1.6,1.31c-.35.55-.53,1.16-.53,1.82,0,.62.12,1.13.37,1.53.24.4.56.72.95.97.39.24.82.44,1.3.6.47.16.95.29,1.42.39.47.11.9.22,1.3.33.39.12.71.27.95.45.24.18.36.43.36.74,0,.24-.08.46-.23.65-.15.19-.39.34-.71.44Z"/>
-              <path class="cls-1" d="m31.22,15.6h2.3c1.02,0,1.9-.17,2.64-.51.74-.34,1.31-.82,1.71-1.46.4-.63.6-1.38.6-2.25s-.2-1.63-.6-2.26-.97-1.12-1.71-1.46c-.74-.34-1.62-.51-2.64-.51h-4.94v11.65h2.64v-3.21Zm3.98-5.71c.4.36.6.85.6,1.5s-.2,1.13-.6,1.48c-.4.36-1.01.53-1.83.53h-2.15v-4.04h2.15c.82,0,1.42.18,1.83.53Z"/>
-              <polygon class="cls-1" points="48.17 11.75 42.99 11.75 42.99 7.16 40.34 7.16 40.34 18.81 42.99 18.81 42.99 14.04 48.17 14.04 48.17 18.81 50.81 18.81 50.81 7.16 48.17 7.16 48.17 11.75"/>
-              <polygon class="cls-1" points="56.35 18.81 58.99 18.81 58.99 14.69 63.43 7.16 60.84 7.16 57.78 12.33 54.74 7.16 51.93 7.16 56.35 14.66 56.35 18.81"/>
-              <polygon class="cls-1" points="67.03 11.74 72.72 18.81 74.89 18.81 74.89 7.16 72.28 7.16 72.28 14.23 66.61 7.16 64.42 7.16 64.42 18.81 67.03 18.81 67.03 11.74"/>
-              <polygon class="cls-1" points="79.32 18.81 82.03 14.76 84.78 18.81 87.83 18.81 83.58 12.79 87.56 7.16 84.69 7.16 82.12 10.93 79.5 7.16 76.5 7.16 80.5 12.88 76.29 18.81 79.32 18.81"/>
-              <polygon class="cls-1" points="8.68 29.99 1.82 21.47 .48 21.47 .48 32.91 2.11 32.91 2.11 24.38 8.98 32.91 10.32 32.91 10.32 21.47 8.68 21.47 8.68 29.99"/>
-              <polygon class="cls-1" points="15.38 27.79 21.12 27.79 21.12 26.4 15.38 26.4 15.38 22.89 21.82 22.89 21.82 21.47 13.75 21.47 13.75 32.91 22.05 32.91 22.05 31.49 15.38 31.49 15.38 27.79"/>
-              <polygon class="cls-1" points="23.05 22.89 26.97 22.89 26.97 32.91 28.59 32.91 28.59 22.89 32.51 22.89 32.51 21.47 23.05 21.47 23.05 22.89"/>
-              <polygon class="cls-1" points="45.62 30.81 42.47 21.47 40.96 21.47 37.75 30.77 34.65 21.47 32.97 21.47 36.79 32.91 38.54 32.91 41.67 23.77 44.79 32.91 46.5 32.91 50.33 21.47 48.77 21.47 45.62 30.81"/>
-              <path class="cls-1" d="m61.71,23c-.55-.53-1.19-.94-1.93-1.23-.73-.29-1.54-.43-2.41-.43s-1.69.15-2.43.44c-.74.29-1.38.71-1.93,1.23-.55.53-.97,1.15-1.27,1.86-.31.71-.46,1.48-.46,2.32s.15,1.61.46,2.32c.3.71.73,1.33,1.27,1.86.54.53,1.19.94,1.94,1.23.75.29,1.56.44,2.43.44s1.68-.14,2.41-.43c.74-.29,1.38-.7,1.93-1.23.55-.53.98-1.15,1.27-1.85.3-.71.45-1.49.45-2.34s-.15-1.63-.45-2.34c-.3-.71-.72-1.33-1.27-1.85Zm-.24,5.94c-.22.53-.53,1-.93,1.4-.4.4-.87.71-1.41.92-.54.22-1.12.33-1.76.33s-1.23-.11-1.77-.33-1.01-.53-1.41-.92c-.4-.4-.72-.86-.94-1.4-.22-.53-.34-1.12-.34-1.75s.11-1.21.34-1.75c.22-.53.54-1,.94-1.4s.87-.71,1.41-.92,1.13-.33,1.77-.33,1.22.11,1.76.33c.54.22,1.01.53,1.41.92s.71.86.93,1.4c.22.53.34,1.12.34,1.75s-.11,1.21-.34,1.75Z"/>
-              <path class="cls-1" d="m72.96,28.95c.71-.32,1.25-.77,1.63-1.36.38-.59.57-1.3.57-2.13s-.19-1.54-.57-2.14c-.38-.6-.93-1.06-1.63-1.37-.71-.32-1.56-.47-2.57-.47h-4.46v11.44h1.63v-3.48h2.83c.25,0,.49,0,.73-.03l2.46,3.51h1.78l-2.72-3.84c.11-.04.22-.07.32-.12Zm-2.61-.92h-2.78v-5.15h2.78c1.05,0,1.84.22,2.38.67s.81,1.08.81,1.9-.27,1.45-.81,1.9c-.54.45-1.33.68-2.38.68Z"/>
-              <polygon class="cls-1" points="87.52 21.47 85.66 21.47 79.45 27.87 79.45 21.47 77.81 21.47 77.81 32.91 79.45 32.91 79.45 29.95 81.55 27.82 85.92 32.91 87.83 32.91 82.64 26.62 87.52 21.47"/>
+              <path class="cls-1" d="m43.35,26.73l-.29.26-.1.09-.4.35-.35.31-.26,1.91-.11.83-.12.91-.11.82.67.59.29.25.4.35.06.05.34.3.34.3.05.05v-7.71l-.18.16-.22.19Z"/>
+              <path class="cls-1" d="m40.62,26.35l-.24.49-.27.54-.66,1.35-.16.32-.39.79.45.4.09.08.81.71.57-1.83.11-.36.1-.32.19-.62.24-.78h0s-.86-.76-.86-.76h-.01Z"/>
+              <path class="cls-1" d="m39.68,26.28l.28-.51-.42-1.05-.08.1-.23.3h0s-1.25,1.6-1.25,1.6l-.54.69.54,1.36.15.38,1.33-2.46.22-.41Z"/>
+              <path class="cls-1" d="m46.44,30.48l-.11-.83-.26-1.91-.35-.31-.4-.35-.1-.09-.29-.26-.22-.19-.18-.16v7.71l.05-.05.34-.3.34-.3.06-.05.4-.35.29-.25.67-.59-.11-.82-.12-.91Z"/>
+              <path class="cls-1" d="m48.82,28.73l-.66-1.35-.27-.54-.24-.49h-.01s-.86.76-.86.76h0s.24.78.24.78l.19.62.1.32.11.36.57,1.83.81-.71.09-.08.45-.4-.39-.79-.16-.32Z"/>
+              <path class="cls-1" d="m49.06,25.12h0s-.23-.3-.23-.3l-.08-.1-.42,1.05.28.51.22.41,1.33,2.46.15-.38.54-1.36-.54-.69-1.25-1.6Z"/>
+              <path class="cls-1" d="m43.35,26.73l-.29.26-.1.09-.4.35-.35.31-.26,1.91-.11.83-.12.91-.11.82.67.59.29.25.4.35.06.05.34.3.34.3.05.05v-7.71l-.18.16-.22.19Z"/>
+              <path class="cls-1" d="m40.62,26.35l-.24.49-.27.54-.66,1.35-.16.32-.39.79.45.4.09.08.81.71.57-1.83.11-.36.1-.32.19-.62.24-.78h0s-.86-.76-.86-.76h-.01Z"/>
+              <path class="cls-1" d="m39.68,26.28l.28-.51-.42-1.05-.08.1-.23.3h0s-1.25,1.6-1.25,1.6l-.54.69.54,1.36.15.38,1.33-2.46.22-.41Z"/>
+              <path class="cls-1" d="m46.44,30.48l-.11-.83-.26-1.91-.35-.31-.4-.35-.1-.09-.29-.26-.22-.19-.18-.16v7.71l.05-.05.34-.3.34-.3.06-.05.4-.35.29-.25.67-.59-.11-.82-.12-.91Z"/>
+              <path class="cls-1" d="m48.82,28.73l-.66-1.35-.27-.54-.24-.49h-.01s-.86.76-.86.76h0s.24.78.24.78l.19.62.1.32.11.36.57,1.83.81-.71.09-.08.45-.4-.39-.79-.16-.32Z"/>
+              <path class="cls-1" d="m49.06,25.12h0s-.23-.3-.23-.3l-.08-.1-.42,1.05.28.51.22.41,1.33,2.46.15-.38.54-1.36-.54-.69-1.25-1.6Z"/>
+              <path class="cls-1" d="m53.38,6.52l-.7-.62h0l-1.13.46-.29.12-.28.12-.67.27-.63.25-.72,1.19-.03.04-.11.18-2.57,4.27-.53.87h0v1.19l.31.27,1.35,1.19.07.06-.08-.04-1.58-.82-.08-.04-.4-.21v-1.6h0s.4-.83.4-.83l.17-.36,1.75-3.65.44-.92-.17-.09-.7-.36-.28.75-.39,1.06-.83,2.24-.23.61-.17.46-.4,1.07h0v1.83l.4.35.18.16.22.19.68.6-.68-.36-.37-.19-.03-.02-.4-.21-.4-.21v-2.16l.4-1.89.02-.12.37-1.78.02-.12.21-.99.17-.79.24-1.16-.24-.12-.4-.2-.4-.2-.4-.2-.4-.2h0l-.4.2-.4.2-.4.2-.4.2-.24.12.24,1.16.17.79.21.99.02.12.37,1.78.02.12.4,1.89v2.16l-.4.21-.4.21-.03.02-.37.19-.68.36.68-.6.22-.19.18-.16.4-.35v-1.83h0s-.4-1.07-.4-1.07l-.17-.46-.23-.61-.83-2.24-.39-1.06-.28-.75-.7.36-.17.09.44.92,1.75,3.65.17.36.4.83h0v1.6l-.4.21-.08.04-1.58.82-.08.04.07-.06,1.35-1.19.31-.27v-1.19h0s0,0,0,0l-.53-.87-2.57-4.27-.11-.18-.03-.04-.72-1.19-.63-.25-.67-.27-.28-.12-.29-.12-1.13-.46h0l-.7.62-.22.19v6.96l.21.54.46,1.16.25.22.5.44.68.6-.67-1.7-.33-.84-.17-.42v-6.32l.43-.38,1.67.68.28.75.2.55,1.28,3.48v2.64l-.3.27-.56.5-.39.34-.03.03-.19.17v3.28l.12.31.05.13,1.02,2.58.16.14.13.11.88.77.4.36.06.16.39.99.09.23.58.51.49.43.05-.04.16-.14.3-.26.09-.08.4-.35.4-.35.3-.26.1-.09.1.09.3.26.4.35.4.35.09.08.3.26.16.14.05.04.49-.43.58-.51.09-.23.39-.99.06-.16.4-.36.88-.77.13-.11.16-.14,1.02-2.58.05-.13.12-.31v-3.28l-.19-.17-.03-.03-.39-.34-.56-.5-.3-.27v-2.64l1.28-3.48.2-.55.28-.75,1.67-.68.43.38v6.32l-.17.42-.33.84-.67,1.7.68-.6.5-.44.25-.22.46-1.16.21-.54v-6.96l-.22-.19Zm-13.65,11.07h.85l.24.14.75.45.98,1.15h0v1.51h0s0,0,0,0l-.32-.88h-1.68l-1.1-.97v-1.4h.28Zm9.09.48v.92l-1.1.97h-1.68l-.32.88h0s0,0,0,0v-1.51h0s.98-1.15.98-1.15l.75-.45.24-.14h1.13v.48h0Zm-3.5,5.08l-.4.35-.28.25-.11.1-.4.35-.4-.35-.11-.1-.28-.25-.4-.35-.12-.1-.06-.05-.22-.2h0s.28,0,.28,0h2.88s-.22.2-.22.2l-.06.05-.12.1Z"/>
             </svg>
           </div>                  
        </section>
@@ -167,122 +169,129 @@
   <div id="section5">
     <div class="container">
       <h2 class="text-center">What <b>we do</b></h2>
-      <p class="text-center">We discover and build dreams.</p>
-      <div class="row text-center">
-        <div class="col-4">
+      <div class="row">
+        <div class="col-sm">
           <h3>Influencer</h3>
           <p>Leveraging influential people to promote a brand's products or services to their audience.</p>
-          <button class="btn btn-outline-light">Contact us</button>
+          <a href="/"  class="btn btn-outline-light">Contact us</a>
         </div>
-        <div class="col-4">
+        <div class="col-sm">
           <h3>Community</h3>
-          <p>Community management to promote loyalty and organic growth.</p>
-          <button class="btn btn-outline-light">Contact us</button>
+          <p>Create and manage an engaged community of followers, promoting loyalty and organic growth.</p>
+          <a href="/"  class="btn btn-outline-light">Contact us</a>
         </div>
-        <div class="col-4">
+        <div class="col-sm">
           <h3>Social Media</h3>
-          <p>Social media management to enhance your online presence and engagement.</p>
-          <button class="btn btn-outline-light">Contact us</button>
+          <p>Social media management to enhance your online presence and engagement on top social media platforms.</p>
+          <a href="/"  class="btn btn-outline-light">Contact us</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="section4">
-    <div class="container">
-      <h2 class="text-center">Case Studies</h2>
-      <div class="row">
-        <div class="col-lg-6">
-          
-          <div class="list-group case-studies" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action align-items-center" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home <span class="fa-solid fa-chevron-right"></span></a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Profile <i class="fa-solid fa-chevron-right"></i></a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Messages <i class="fa-solid fa-chevron-right"></i></a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Settings <i class="fa-solid fa-chevron-right"></i></a>
+  <div id="section8" class="container"> 
+    <h2 class="text-center">Our Team</h2>
+    <div class="carrousel">
+      <div class="swiper">
+        <div class="slide-container">
+          <div class="card-wrapper swiper-wrapper">
+
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="img/danilo.png" alt="" />
+              </div>
+              <div class="profile-details">
+                <div>
+                  <h4>Danilo Muñoz</h4>
+                  <p>Founcer & CEO</p>
+                  <a href="https://www.linkedin.com/in/danilo-mu%C3%B1oz-006209118/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i> See on LinkedIn</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="img/mateus.png" alt="" />
+              </div>
+              <div class="profile-details">
+                <div>
+                  <h4>Mateus Sales</h4>
+                  <p>Co-Founder & COO</p>
+                  <a href="https://www.linkedin.com/in/mateus-sales-a57bbb107/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i> See on LinkedIn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="img/guilherme.png" alt="" />
+              </div>
+              <div class="profile-details">
+                <div>
+                  <h4>Guilherme Feriani</h4>
+                  <p>CLO</p>
+                  <a href="https://www.linkedin.com/in/guilherme-feriani-446a25101/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i> See on LinkedIn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="img/victor m.png" alt="" />
+              </div>
+              <div class="profile-details">
+                <div>
+                  <h4>Victor Meinberg</h4>
+                  <p>Advisor</p>
+                  <a href="https://www.linkedin.com/in/victor-meinberg/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i> See on LinkedIn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="img/jenifer.png" alt="" />
+              </div>
+              <div class="profile-details">
+                <div>
+                  <h4>Jenifer Muñoz</h4>
+                  <p>Social Media</p>
+                  <a href="https://www.linkedin.com/in/jenifer-mu%C3%B1oz-b1ab28248/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i> See on LinkedIn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="img/victor.png" alt="" />
+              </div>
+              <div class="profile-details">
+                <div>
+                  <h4>Victor Fernandes</h4>
+                  <p>Web Designer</p>
+                  <a href="https://www.linkedin.com/in/victormafer/" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i> See on LinkedIn</a>
+                </div>
+              </div>
+            </div>
+            
+            
+            
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="container tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">home Por exemplo, para aplicar um estilo somente na versão web, você pode utilizar a classe d-none d-md-block, que oculta o elemento em dispositivos menores do que a tela média (que inclui tablets e smartphones em orientação horizontal) e mostra o elemento em dispositivos maiores.</div>
-            <div class="container tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">profile Por exemplo, para aplicar um estilo somente na versão web, você pode utilizar a classe d-none d-md-block, que oculta o elemento em dispositivos menores do que a tela média (que inclui tablets e smartphones em orientação horizontal) e mostra o elemento em dispositivos maiores.</div>
-            <div class="container tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Messages Por exemplo, para aplicar um estilo somente na versão web, você pode utilizar a classe d-none d-md-block, que oculta o elemento em dispositivos menores do que a tela média (que inclui tablets e smartphones em orientação horizontal) e mostra o elemento em dispositivos maiores.</div>
-            <div class="container tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Settings Por exemplo, para aplicar um estilo somente na versão web, você pode utilizar a classe d-none d-md-block, que oculta o elemento em dispositivos menores do que a tela média (que inclui tablets e smartphones em orientação horizontal) e mostra o elemento em dispositivos maiores.</div>
-          </div>
-        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <br><br>
+        <div class="swiper-pagination"></div>
       </div>
-    </div>
+    
+    
+    
+    
+    
   </div>
 
-  <div id="section7">
-    <div class="container">
-      <h2 class="text-center">Our Team</h2>
-      <div class="row">
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/persona.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum</h5>
-              <p class="card-text">Founder & CEO</p>
-            </div>
-              <a><i class="fa-brands fa-linkedin fa-2xl"></i> See on Linkedin</a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/persona.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum</h5>
-              <p class="card-text">Founder & CEO</p>
-            </div>
-              <a><i class="fa-brands fa-linkedin fa-2xl"></i> See on Linkedin</a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/persona.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum</h5>
-              <p class="card-text">Founder & CEO</p>
-            </div>
-              <a><i class="fa-brands fa-linkedin fa-2xl"></i> See on Linkedin</a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/persona.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum</h5>
-              <p class="card-text">Founder & CEO</p>
-            </div>
-              <a><i class="fa-brands fa-linkedin fa-2xl"></i> See on Linkedin</a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/persona.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum</h5>
-              <p class="card-text">Founder & CEO</p>
-            </div>
-              <a><i class="fa-brands fa-linkedin fa-2xl"></i> See on Linkedin</a>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/persona.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum</h5>
-              <p class="card-text">Founder & CEO</p>
-            </div>
-              <a><i class="fa-brands fa-linkedin fa-2xl"></i> See on Linkedin</a>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
+  
+
 
   <div id="section6">
     <div class="container">
@@ -345,7 +354,7 @@
         <div class="col-lg-12 text-center">
           <a href="#"><span class="icons"><i class="fab fa-telegram-plane fa-lg fa-fw"></i></i></span></a>
           <a href="#"><span class="icons"><i class="fa-brands fa-instagram fa-lg fa-fw"></i></span></a>
-          <a href="#"><span class="icons"><i class="fa-brands fa-linkedin-in fa-lg fa-fw"></i></span></a>
+          <a href="#"><span class="icons"><i class="fa-brands fa-linkedin fa-lg fa-fw"></i></span></a>
           <a href="#"><span class="icons"><i class="fa-brands fa-discord fa-lg fa-fw"></i></span></a>
       </div>
       </div>
@@ -354,4 +363,47 @@
   </div>
 </footer>
 
+
+<script src="js/swiper-bundle.min.js"></script>
 </html>
+
+<script>
+
+
+var swiper = new Swiper(".slide-container", {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  sliderPerGroup: 4,
+  loop: true,
+  centerSlide: "true",
+  fade: "true",
+  grabCursor: "true",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    520: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1000: {
+      slidesPerView: 4,
+    },
+  },
+});
+
+
+
+</script>

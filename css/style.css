@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
   font-family: 'Poppins', sans-serif !important;
+  background-color: #090909;
 }
 
 .navbar{
@@ -80,7 +81,7 @@ svg{
   padding: 100px 0 100px 0;
 }
 
-#section3 section{
+#section3 section, #section5 .row{
   padding-top: 50px;
 }
 
@@ -136,22 +137,29 @@ svg{
   padding: 100px 0 100px 0;
 }
 
-#section5 .row {
-  padding-top: 50px;
-}
-
-#section5 .col-4 {
+#section5 .col-sm {
   line-height: 2rem;
-  margin: 1rem auto 0 auto;
-  padding: 50px;
-  width: 350px;
-  height: 300px;
+  margin: 5px;
+  padding: 56px 40px 56px 40px;
+  width: 375px;
+  height: 350px;
   background-color: #202020;
   border-radius: 10px;
+
+  display:block;
 }
 
-.col-4 h3, .col-4 p{
-  margin-bottom: 20px;
+#section5 button{
+  bottom: 0;
+}
+
+#section5 h2{
+  padding-bottom: 50px;
+  margin-bottom: 0 !important;
+}
+
+.col-sm h3, .col-sm p{
+  margin-bottom: 35px;
 }
 
 #section6{
@@ -160,7 +168,7 @@ svg{
   padding: 100px 0 100px 0;
 }
 
-.col-4 .btn-outline-light:hover, .col-4 .btn-outline-light:active{
+.col-sm .btn-outline-light:hover, .col-sm .btn-outline-light:active{
   background-color: #202020 !important;
 }
 
@@ -174,7 +182,7 @@ footer{
   padding: 50px 0 10px 0;
 }
 
-footer .nav-link:hover, footer .nav-link:before, .card a{
+footer .nav-link:hover, footer .nav-link:before, a{
   color: #FFF !important;
   text-transform: none;
   text-decoration: none;
@@ -196,45 +204,17 @@ footer p{
     font-size: 30px;
   }
 
-  form, #section7 .col{
-    padding-top: 50px;
+  form, #section7 .firstCol{
+    padding-top: 0px;
   }
 
-  #section7 .row{
+  #section7 .secondRow, #section7 .row{
     padding-bottom: 0px !important;
   }
 
-  #section1 h1, video{
+  #section1 h1{
     margin-top: -70px !important;
   }
-}
-
-#section4{
-  background-color: #090909;
-  color: #fff;
-}
-
-#section4 .list-group-item{
-  font-weight: 100 !important;
-  grid-column-gap: 1rem;
-  color: #FFF;
-  border: none;
-  background-color: transparent;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  font-size: 1.25rem;
-  line-height: 1;
-  display: flex;
-  text-align: left !important;
-}
-
-#section4 .list-group .active {
-  font-weight: 900 !important;
-}
-
-.tab-content {
-  line-height: 40px;
 }
 
 #section6 input, #section6 select, #section6 textarea{
@@ -261,31 +241,103 @@ footer p{
   border-radius: 0;
 }
 
+#section6 p{
+  margin-left: 5px;
+}
+
 #section6 .btn:hover{
   background-color: #090909;
 }
 
-#section7 {
-  padding: 100px 0 100px 0;
-  background-color: #090909;
-}
-
-#section7 .card {
-  color: #fff;
-  line-height: 2rem;
-  margin: 1rem auto 0 auto;
-  padding: 50px;
-  width: 350px;
-  height: 300px;
-  background-color: #202020;
-  border-radius: 10px;
-}
-
-.card-body{
-  padding: 16px 0 16px 0;
-}
-
-#section7 h2, #section3 h2, #section7 .row, #section4 h2{
+#section3 h2, #section4 h2{
   padding-bottom: 50px;
   color: #ffffff;
 }
+
+#section7 .secondRow, #section7 .row{
+  padding-top: 50px
+}
+
+#section8 h2{
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+
+
+.carrousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #090909;
+  box-sizing: border-box;
+  padding: 50px 0 50px 0;
+}
+
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.card {
+  background: #202020;
+  border: none;
+  border-radius: 9px;
+  color: #fff;
+  height: 500px;
+}
+
+.card .image-box {
+  height: 300px;
+  background-color: #090909;
+  border-radius: 30px;
+  border: 20px solid #202020;
+  display: flex;
+  justify-content: center;
+}
+
+.card .image-box img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.card .profile-details {
+  column-gap: 12px;
+  padding: 15px;
+}
+
+.carrousel p{
+  color: #8e8f91;
+  padding-bottom: 55px !important;
+}
+
+.swiper-navBtn {
+  color: #7C21FF;
+  height: 35px;
+  width: 35px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.swiper-navBtn::before, .swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fefefe;
+  margin-top: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+
+
+
