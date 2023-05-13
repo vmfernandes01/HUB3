@@ -303,14 +303,14 @@
             <form method="POST" action="https://formsubmit.co/7df18e3a05a2f1048806628f98fe617f">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label><br>
-                <input id="name" type="text" placeholder="Insert your name">
+                <input name="name" id="name" type="text" placeholder="Insert your name">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label><br>
-                <input id="email" type="email" placeholder="Insert your email">
+                <input name="email" id="email" type="email" placeholder="Insert your email">
               </div>
               <div class="mb-3">
-                <label for="select" class="form-label">Service Interested</label><br>
+                <label id="select" name="select" for="select" class="form-label">Service Interested</label><br>
                 <select id="select">
                   <option selected>Choose the solution of interest</option>
                   <option value="1">Influencers</option>
@@ -322,12 +322,12 @@
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label><br>
-                <textarea id="message" type="text" rows="3" placeholder="Your message"></textarea>
+                <textarea name="message" id="message" type="text" rows="3" placeholder="Your message"></textarea>
               </div>
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://hub3.ink/obrigado.html">
               <div class="text-end justify-content-md-end">
-                <button id="submit" class="btn me-md" type="submit">Submit</button>
+                <button name="submit" id="submit" class="btn me-md" type="submit">Submit</button>
               </div>
             </form>
           </div>
