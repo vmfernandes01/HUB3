@@ -193,8 +193,8 @@
         <h2 class="text-center">Testimonials</b></h2>
         <div class="row" style="padding-bottom: 0px;">
           <div class="col-sm">
-            <p>"HUB3 has played a crucial role in the growth of our crypto asset exchange. Their strategic approach, combined with collaboration with key influencers, has helped us attract new users and increase trading volume on our platform. We are extremely happy with the services provided by HUB3!"</p>
-            <p class="testimonial">Mariusz Nowak | CEO @ TokenExchange</p>
+            <p>"I continue to enjoy working with HUB3, as they not only have a great attitude towards us and our product, but thanks to HUB3, we were able to fully enter the Brazilian market. We have a lot of experience working with the rest of the world: Europe, Eastern Europe, and Asia, but we never imagined that Gemly would become so popular with the Brazilian audience, and I give the lion's share of this success to our partnership with HUB3."</p>
+            <p class="testimonial">Bohdan | Founder & CEO @ Gemly.gg</p>
           </div>
           <div class="col-sm">
             <p>"Since we started working with HUB3, our visibility and participation in the DeFi market have significantly increased. Their deep knowledge in marketing for crypto assets and connection with relevant influencers have been instrumental in reaching our target audience. We are very pleased with the results achieved!"</p>
@@ -203,8 +203,8 @@
         </div>
         <div class="row" style="padding-top: 0px;">
           <div class="col-sm">
-            <p>"HUB3 has been a valuable partner for our NFT company. Their expertise in the web3 market, combined with effective marketing strategies and collaboration with specialized influencers, has helped us build an engaged community and drive sales of our NFTs. We highly recommend their services!"</p>
-            <p class="testimonial">David Johnson | Founder @ NFT Solutions</p>
+            <p>"So far, I am satisfied with your work and availability. HUB3 has shown commitment and dedication in your tasks, which is greatly appreciated. Keep up the good work, as your professional attitude has positively contributed to the progress of our teamwork. I am confident that with the competence and dedication of your team, we will achieve excellent results."</p>
+            <p class="testimonial">Luis | KOL Manager @ Coinex</p>
           </div>
           <div class="col-sm">
             <p>"The partnership with HUB3 has been crucial in boosting our presence in the crypto assets market. Their strategic marketing services and collaboration with relevant influencers have helped us reach new investors and increase our visibility in the industry. We are extremely satisfied with the results!"</p>
@@ -335,6 +335,7 @@
               </div>
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://hub3.ink/tks">
+              <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdpHC8mAAAAAO2SMMGeLKRR3_wDZph3aC215Pvn"></script>
               <div class="text-end justify-content-md-end">
                 <button name="submit" id="submit" class="btn me-md" type="submit">Submit</button>
               </div>
@@ -413,4 +414,12 @@
       },
     },
   });
+
+  grecaptcha.enterprise.ready(function() {
+      grecaptcha.enterprise.execute('6LdpHC8mAAAAAO2SMMGeLKRR3_wDZph3aC215Pvn', {action: 'login'}).then(function(token) {
+        6LdpHC8mAAAAACq6fZvRdKaxdTqXrdTgZ9Nus9zV
+      });
+  });
+
+
 </script>
