@@ -335,7 +335,7 @@
               </div>
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://hub3.ink/tks">
-              <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdpHC8mAAAAAO2SMMGeLKRR3_wDZph3aC215Pvn"></script>
+              
               <div class="text-end justify-content-md-end">
                 <button name="submit" id="submit" class="btn me-md" type="submit">Submit</button>
               </div>
@@ -413,12 +413,6 @@
         slidesPerView: 4,
       },
     },
-  });
-
-  grecaptcha.enterprise.ready(function() {
-      grecaptcha.enterprise.execute('6LdpHC8mAAAAAO2SMMGeLKRR3_wDZph3aC215Pvn', {action: 'login'}).then(function(token) {
-        6LdpHC8mAAAAACq6fZvRdKaxdTqXrdTgZ9Nus9zV
-      });
   });
 
 
