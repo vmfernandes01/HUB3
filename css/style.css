@@ -307,3 +307,8 @@ footer .nav-link:hover {
     justify-content: center;
     align-items: center;
 }
+
+.section5 img{
+    width: 200px;
+    height: 200px;
+}
