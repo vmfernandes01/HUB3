@@ -60,7 +60,7 @@ svg {
     width: 100%;
     padding-top: 200px;
 }
-#section1 h1 {
+#section1 h1, .gradient {
     background: linear-gradient(60deg, hsl(224deg, 85%, 66%), hsl(269deg, 85%, 66%), hsl(314deg, 85%, 66%), hsl(359deg, 85%, 66%), hsl(44deg, 85%, 66%), hsl(134deg, 85%, 66%), hsl(179deg, 85%, 66%));
     -webkit-background-clip: text;
     background-clip: text;
@@ -311,4 +311,29 @@ footer .nav-link:hover {
 .section5 img{
     width: 200px;
     height: 200px;
+}
+
+.links {
+    padding-top: 100px;
+    text-transform: uppercase !important;
+    max-width: 550px;
+}
+
+.btn-links{
+    margin-top: 20px;
+}
+
+.links h1,
+.links .social,
+.links svg,
+.links img {
+    margin-bottom: 0px !important;
+    padding: 20px;
+}
+
+.links .btn {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 6px !important;
 }
