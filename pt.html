@@ -298,11 +298,11 @@
           <form method="POST" action="https://formsubmit.co/7df18e3a05a2f1048806628f98fe617f">
             <div class="mb-3">
               <label for="name" class="form-label">Nome</label><br>
-              <input name="name" id="name" type="text" placeholder="Insira seu nome">
+              <input name="name" id="name" type="text" placeholder="Insira seu nome" required>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label><br>
-              <input name="email" id="email" type="email" placeholder="Insira seu email">
+              <input name="email" id="email" type="email" placeholder="Insira seu email" required>
             </div>
             <div class="mb-3">
               <label id="select" name="select" for="select" class="form-label">Serviço interessado</label><br>
@@ -317,11 +317,10 @@
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Mensagem</label><br>
-              <textarea name="message" id="message" type="text" rows="3" placeholder="Sua mensagem"></textarea>
+              <textarea name="message" id="message" type="text" rows="3" placeholder="Sua mensagem" required></textarea>
             </div>
             <script>
             </script>
-            <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_next" value="https://hub3.ink/tks">
             <div class="text-end justify-content-md-end">
               <button name="submit" id="submit" class="btn me-md" type="submit">Enviar</button>
