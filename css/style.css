@@ -348,6 +348,8 @@ footer .nav-link:hover {
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
     background-color: #090114;
+    background-attachment: fixed;
+    background-size: cover;
     animation: updown 3s infinite;
 }
 
