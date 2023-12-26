@@ -252,6 +252,11 @@ footer .nav-link:hover {
   margin-left: 5px;
 }
 
+#section2 img{
+  height: 100% !important;
+}
+
+
 #section2 h2,
 #section4 .row,
 #section4 h2 {
