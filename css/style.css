@@ -71,7 +71,7 @@ nav svg {
 }
 
 .gradient {
-  background: linear-gradient(60deg, hsl(224deg, 85%, 66%), hsl(269deg, 85%, 66%), hsl(314deg, 85%, 66%), hsl(359deg, 85%, 66%), hsl(44deg, 85%, 66%), hsl(134deg, 85%, 66%), hsl(179deg, 85%, 66%));
+  background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, hsl(44deg, 85%, 66%), hsl(134deg, 85%, 66%), hsl(179deg, 85%, 66%));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
