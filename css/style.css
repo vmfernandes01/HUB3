@@ -314,8 +314,13 @@ footer .nav-link:hover {
   margin-left: 5px;
 }
 
+.h4 {
+  padding-bottom: 0px !important;
+  color: #fff !important;
+}
+
 .carrousel p {
-  padding-bottom: 55px !important;
+  padding-bottom: 55px;
 }
 
 .swiper-navBtn {
@@ -573,3 +578,4 @@ footer .nav-link:hover {
 #marginzero{
   margin-bottom: 0;
 }
+
