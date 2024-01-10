@@ -10,3 +10,31 @@
   <p>A página que você está procurando não foi encontrada.</p>
 </body>
 </html>
+
+<style>
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+
+*{
+    font-family: Poppins, sans-serif !important;
+}
+
+h1 {
+  background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, hsl(44deg, 85%, 66%), hsl(134deg, 85%, 66%), hsl(179deg, 85%, 66%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-position: 0 0;
+  background-size: 200% 200%;
+  animation: 7s infinite moveGradient;
+  font-weight: 700;
+}
+@keyframes moveGradient {
+  0%,
+  100% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+</style>
