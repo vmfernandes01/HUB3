@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /img
+Disallow: /css
+Disallow: /js
+Disallow: /links.html
+Disallow: /pt.html
+Sitemap: https://hub3.ink/sitemap.xml
