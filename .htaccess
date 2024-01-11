@@ -2,7 +2,6 @@ RewriteEngine On
 RewriteRule ^portfolio$ "https://drive.google.com/file/d/1JUngNYAy3qX3j8o2KWWLiiSyAlv-zO48/view?usp=sharing" [R=301,L]
 
 
-<!--ErrorDocument 404 /404.html-->
 
 
 
