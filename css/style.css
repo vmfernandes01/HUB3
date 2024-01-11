@@ -78,7 +78,7 @@ footer svg {
   color: transparent;
   background-position: 0 0;
   background-size: 200% 200%;
-  animation: 1s infinite moveGradient;
+  animation: 7s infinite moveGradient;
   font-weight: 700;
 }
 @keyframes moveGradient {
